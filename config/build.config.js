@@ -76,8 +76,12 @@ module.exports = {
   vendorFiles: [
     'js/angular/angular-animate.js',
     'js/angular/angular-animate.min.js',
+    'js/angular/angular-cookies.js',
+    'js/angular/angular-cookies.min.js',
     'js/angular/angular-resource.js',
     'js/angular/angular-resource.min.js',
+    'js/angular/angular-messages.js',
+    'js/angular/angular-messages.min.js',
     'js/angular/angular-sanitize.js',
     'js/angular/angular-sanitize.min.js',
     'js/angular/angular.js',
@@ -94,6 +98,8 @@ module.exports = {
     'js/ionic.js',
     'js/angular/angular.js',
     'js/angular/angular-animate.js',
+    'js/angular/angular-cookies.js',
+    'js/angular/angular-messages.js',
     'js/angular/angular-sanitize.js',
     'js/angular-ui/angular-ui-router.js',
     'js/ionic-angular.js'
