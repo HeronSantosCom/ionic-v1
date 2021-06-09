@@ -41,7 +41,7 @@ function run {
 
   cd $CDN_DIR
 
-  git config --global user.email "hi@ionicframework.com"
+  git config --global user.email "heron@illi.com.br"
   git config --global user.name "Ionitron"
 
   git add -A

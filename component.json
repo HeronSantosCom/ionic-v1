@@ -1,7 +1,7 @@
 {
-    "repo": "ionic-team/ionic",
+    "repo": "HeronSantosCom/ionic-v1",
     "development": {},
-    "version": "1.3.5",
+    "version": "1.3.11",
     "styles": [
       "dist/css/ionic.css"
     ],
@@ -12,6 +12,10 @@
       "dist/js/ionic.js",
       "dist/js/angular/angular.js",
       "dist/js/angular/angular-animate.js",
+      "dist/js/angular/angular-cookies.js",
+      "dist/js/angular/angular-i18n.js",
+      "dist/js/angular/angular-md5.js",
+      "dist/js/angular/angular-messages.js",
       "dist/js/angular/angular-sanitize.js",
       "dist/js/angular-ui/angular-ui-router.js",
       "dist/js/ionic-angular.js"

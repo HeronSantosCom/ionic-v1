@@ -1,22 +1,26 @@
 // package metadata file for Meteor.js
-var packageName = 'ionic-team:ionic'; // https://atmospherejs.com/ionic-team/ionic
+var packageName = 'HeronSantosCom:ionic-v1'; // https://atmospherejs.com/HeronSantosCom/ionic-v1
 var where = 'client'; // where to install: 'client' or 'server'. For both, pass nothing.
-var version = '1.3.5';
+var version = '1.3.11';
 
 Package.describe({
   name: packageName,
   version: version,
   summary: 'Ionic Framework official Meteor package',
-  git: 'git@github.com:ionic-team/ionic.git'
+  git: 'git@github.com:HeronSantosCom/ionic-v1.git'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom(['METEOR@0.9.0', 'METEOR@1.0']);
 
-  api.use('angular:angular@1.5.3', where);
-  api.use('angular:angular-animate@1.5.3', where);
-  api.use('angular:angular-sanitize@1.5.3', where);
-  api.use('angularui:angular-ui-router@0.2.13_3', where);
+  api.use('angular:angular@1.8.2', where);
+  api.use('angular:angular-animate@1.8.2', where);
+  api.use('angular:angular-cookies@1.8.2', where);
+  api.use('angular:angular-i18n@1.8.2', where);
+  api.use('angular:angular-md5@0.1.10', where);
+  api.use('angular:angular-messages@1.8.2', where);
+  api.use('angular:angular-sanitize@1.8.2', where);
+  api.use('angularui:angular-ui-router@1.0.29', where);
 
   // In case the Meteor project has the `fastclick` package,
   // Load it first and cancel it (to use Ionic's one)

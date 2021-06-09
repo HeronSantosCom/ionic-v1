@@ -31,11 +31,11 @@ function run {
   cp -Rf scss $APPBASE_LIB_DIR
 
   echo "-- Updating bower dependency..."
-  replaceJsonProp "$APPBASE_DIR/bower.json" "ionic" "ionic-team\/ionic-bower#$VERSION"
+cd   replaceJsonProp "$APPBASE_DIR/bower.json" "ionic" "HeronSantosCom\/ionic-bower#$VERSION"
 
   cd $APPBASE_DIR
 
-  git config --global user.email "hi@ionicframework.com"
+  git config --global user.email "heron@illi.com.br"
   git config --global user.name "Ionitron"
 
   git add -A

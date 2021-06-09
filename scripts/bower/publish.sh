@@ -47,7 +47,7 @@ function run {
   echo "-- Updating codename in ionic-bower to $CODENAME"
   replaceJsonProp "bower.json" "codename" "$CODENAME"
   
-  git config --global user.email "hi@ionicframework.com"
+  git config --global user.email "heron@illi.com.br"
   git config --global user.name "Ionitron"
 
   git add -A
