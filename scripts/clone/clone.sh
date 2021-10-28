@@ -18,10 +18,10 @@ function run {
     ARGS="$ARGS --depth=$DEPTH"
   fi
 
-  git config --global user.email "hi@ionicframework.com"
-  git config --global user.name "Ionitron"
+  git config --global user.email "heron@illi.com.br"
+  git config --global user.name "Heron Santos"
 
-  git clone git@github.com:ionic-team/$REPOSITORY.git $DIRECTORY $ARGS
+  git clone git@github.com:HeronSantosCom/$REPOSITORY.git $DIRECTORY $ARGS
   cd $DIRECTORY
   git fetch origin --tags
   cd ../
