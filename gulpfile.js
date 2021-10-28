@@ -96,7 +96,7 @@ function makeChangelog(options) {
   var version = options.version || pkg.version;
   var deferred = q.defer();
   changelog({
-    repository: 'https://github.com/HeronSantosCom/ionic-v1',
+    repository: 'https://github.com/ionic-team/ionic',
     version: version,
     subtitle: subtitle,
     file: file,
@@ -355,7 +355,7 @@ gulp.task('release-discourse', function(done) {
     standalone: true
   })
   .then(function(changelog) {
-    var content = 'Download Instructions: https://github.com/HeronSantosCom/ionic-v1#quick-start\n\n' + changelog;
+    var content = 'Download Instructions: https://github.com/ionic-team/ionic#quick-start\n\n' + changelog;
     return qRequest({
       url: 'http://forum.ionicframework.com/posts',
       method: 'post',
