@@ -1,7 +1,10 @@
 {
     "dependencies": {
         "graceful-fs": {
-            "version": "4.2.2"
+            "version": "3.0.0"
+        },
+        "chokidar": {
+            "version": "1.4.1"
         }
     }
 }
