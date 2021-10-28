@@ -1,8 +1,8 @@
 {
   "name": "ionic-sdk",
   "private": false,
-  "version": "1.3.5",
-  "codename": "hong kong",
+  "version": "1.3.6",
+  "codename": "rio",
   "repository": {
     "url": "git://github.com/HeronSantosCom/ionic-v1.git"
   },
