@@ -47,6 +47,9 @@
     "js/_license.js",
     "js/ionic.js"
   ],
+  "resolutions": {
+    "angular": "1.5.3"
+  },
   "dependencies": {
     "angular": "1.5.3",
     "angular-animate": "1.5.3",
