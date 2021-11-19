@@ -14,8 +14,8 @@ function run {
   export GIT_PUSH_DRYRUN=$GIT_PUSH_DRYRUN
   export VERBOSE=$VERBOSE
 
-  git config --global user.name 'Ionitron'
-  git config --global user.email hi@ionicframework.com
+  git config --global user.email "heron@illi.com.br"
+  git config --global user.name "Heron Santos"
 
   git show $SHA1~1:package.json > .package.tmp.json
   OLD_VERSION=$(readJsonProp ".package.tmp.json" "version")
